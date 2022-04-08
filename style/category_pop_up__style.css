@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Futura Std Book';
+    font-style: normal;
+    font-weight: 400;
+    overflow-x: hidden;
+
+    /*    for separation only*/
+    /*    delete*/
+    padding: 20px;
+    /*    ********/
+}
+
+
+/*Category pop-up*/
+
+.category_box {
+    width: 233px;
+    height: 100vh;
+    max-height: 900px;
+    background: #F7FBFF;
+    border-right: 1px solid #ECF2F7;
+}
+
+.category_box .category_header {
+    padding: 13px 16px;
+    border-bottom: 1px solid #ECF2F7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category_box .header_btn {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 19px;
+    color: #081E2E;
+}
+
+.category_box .header_btn img {
+    margin: 0 10px 0 0;
+}
+
+.category_box .close_btn img {
+    margin: 0;
+}
+
+.btn {
+    height: 40px;
+    background-color: #E7F5FF;
+    border-radius: 4px;
+    padding: 11px 16px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 17px;
+    color: #53A5E0;
+    cursor: pointer;
+}
+
+.btn::before {
+    content: '';
+    background-image: url(../img/GearSix_blue.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 18px;
+    height: 18px;
+    margin: 0 10px 0 0;
+}
+
+.category_box .category_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 16px;
+}
+
+.category_box .category_name {
+    width: 100%;
+    font-size: 16px;
+    line-height: 19px;
+    color: #081E2E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0 0;
+    cursor: pointer;
+}
+
+.category_box .category_list {
+    list-style: none;
+    border-bottom: 1px solid #ECF2F7;
+    padding: 7px 0 9px;
+    width: 100%;
+
+}
+
+.category_box .category_list li {
+    padding: 7px 0;
+    font-size: 16px;
+    line-height: 19px;
+    color: #76858F;
+    cursor: pointer;
+}

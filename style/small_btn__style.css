@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Futura Std Book';
+    font-style: normal;
+    font-weight: 400;
+    overflow-x: hidden;
+
+    /*    for separation only*/
+    /*    delete*/
+    padding: 20px;
+    /*    ********/
+}
+
+/*frame around buttons*/
+.border_box {
+    padding: 20px;
+    border: 1px dashed #7B61FF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+/***********/
+
+
+/*smal_btn*/
+.smal_btn {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.blue_btn {
+    background: #53A5E0;
+}
+
+.white_btn {
+    background: #FFFFFF;
+    border: 1px solid #ECF2F7;
+}

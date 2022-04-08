@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Futura Std Book';
+    font-style: normal;
+    font-weight: 400;
+    overflow-x: hidden;
+
+    /*    for separation only*/
+    /*    delete*/
+    padding: 20px;
+    /*    ********/
+}
+
+/*Search input*/
+.search_input {
+    width: 374px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #ECF2F7;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 0 16px 0 42px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #081E2E;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url(../img/MagnifyingGlass.png);
+    background-position: 16px center;
+    background-repeat: no-repeat;
+    background-size: 18px;
+}
+
+.search_input::placeholder {
+    color: #76858F;
+}
+
+.search_input:active,
+.search_input:focus {
+    border: 1px solid #ECF2F7;
+    outline: none;
+}
+
+@media all and (max-width:600px) {
+    .search_input {
+        width: 290px;
+    }
+}

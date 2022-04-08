@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Futura Std Book';
+    font-style: normal;
+    font-weight: 400;
+    overflow-x: hidden;
+    
+     /*    for separation only*/
+    /*    delete*/
+    padding: 20px;
+    /*    ********/
+}
+
+.logo {
+    width: 94px;
+    height: 94px;
+    background: #53A5E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 33px;
+}

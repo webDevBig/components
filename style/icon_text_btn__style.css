@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Futura Std Book';
+    font-style: normal;
+    font-weight: 400;
+    overflow-x: hidden;
+
+    /*    for separation only*/
+    /*    delete*/
+    padding: 20px;
+    /*    ********/
+}
+
+/*Icon + text button*/
+.text_btn {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 17px;
+    color: #081E2E;
+}
+
+.text_btn .icon {
+    margin: 0 8px 0 0;
+}

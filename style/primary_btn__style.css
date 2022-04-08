@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Futura Std Book';
+    font-style: normal;
+    font-weight: 400;
+    overflow-x: hidden;
+    
+     /*    for separation only*/
+    /*    delete*/
+    padding: 20px;
+    /*    ********/
+}
+
+/*Primary button*/
+.btn {
+    width: fit-content;
+    height: 40px;
+    background-color: #E7F5FF;
+    border-radius: 4px;
+    padding: 11px 16px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 17px;
+    color: #53A5E0;
+    cursor: pointer;
+}
+
+.btn::before {
+    content: '';
+    background-image: url(../img/Plus_blue.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 18px;
+    height: 18px;
+    margin: 0 10px 0 0;
+}
+
+.btn.active {
+    color: white;
+    background-color: #53A5E0;
+}
+
+.btn.active::before {
+    background-image: url(../img/Plus_white.png);
+}

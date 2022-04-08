@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Futura Std Book';
+    font-style: normal;
+    font-weight: 400;
+    overflow-x: hidden;
+    
+     /*    for separation only*/
+    /*    delete*/
+    padding: 20px;
+    /*    ********/
+}
+
+.icon_24 {
+    max-width: 24px;
+    cursor: pointer;
+}
+
+.icon_20 {
+    max-width: 20px;
+    cursor: pointer;
+}
+
+.icon_18 {
+    max-width: 18px;
+    cursor: pointer;
+}
+
+.icon_16 {
+    max-width: 16px;
+    cursor: pointer;
+}
+
+
+/* for separation only*/
+/*   delete*/
+.full {
+    width: 100%;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    font-family: 'Futura Std Book';
+    margin: 40px 0 20px;
+}
+
+/*************/

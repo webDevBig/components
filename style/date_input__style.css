@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Futura Std Book';
+    font-style: normal;
+    font-weight: 400;
+    overflow-x: hidden;
+
+    /*    for separation only*/
+    /*    delete*/
+    padding: 20px;
+    /*    ********/
+}
+
+/*Date input*/
+.date_input {
+    width: 143px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #ECF2F7;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 0 16px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #081E2E;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url(../img/CalendarBlank.png);
+    background-position: 108px center;
+    background-repeat: no-repeat;
+    background-size: 18px;
+    font-family: 'Futura Std Book';
+    cursor: pointer;
+}
+
+
+.date_input:active,
+.date_input:focus {
+    outline: none;
+}
+
+.date_input::-webkit-inner-spin-button {
+    display: none;
+}
+
+
+.date_input::-webkit-calendar-picker-indicator {
+    background-image: url(../img/CalendarBlank.png);
+    background-position: 108px center;
+    background-size: 18px;
+    background-repeat: no-repeat;
+    opacity: 0;
+    cursor: pointer;
+}

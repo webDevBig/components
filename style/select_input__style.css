@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Futura Std Book';
+    font-style: normal;
+    font-weight: 400;
+    overflow-x: hidden;
+
+    /*    for separation only*/
+    /*    delete*/
+    padding: 20px;
+    /*    ********/
+}
+
+
+/*Select input*/
+.select_input_box {
+    width: 597px;
+    height: 48px;
+    background-color: #F7FBFF;
+    border: 1px solid #ECF2F7;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 8px 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.select_input_box .inputs_list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.list_item {
+    padding: 8px 12px;
+    background: #FFFFFF;
+    border: 1px solid #ECF2F7;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin: 0 4px;
+    display: flex;
+    align-items: center;
+    cursor: default;
+}
+
+.list_item .icon_16 {
+    margin: 0 0 0 6px;
+}
+
+.select_input_box .icons_list {
+    display: flex;
+    align-items: center;
+    margin: 0 12px 0 0;
+}
+
+.select_input_box hr {
+    margin: 0 16px;
+    width: 1px;
+    height: 25px;
+    background-color: #ECF2F6;
+    border: none;
+    outline: none;
+}
+
+@media all and (max-width:600px) {
+    .select_input_box {
+        width: 100%;
+    }
+}

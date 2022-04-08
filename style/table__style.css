@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Futura Std Book';
+    font-style: normal;
+    font-weight: 400;
+    overflow-x: hidden;
+
+    /*    for separation only*/
+    /*    delete*/
+    padding: 0px;
+    /*    ********/
+}
+
+
+/*table*/
+.table_box {
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.table {
+    width: 100%;
+    max-width: 1300px;
+    text-align: left;
+}
+
+.table th {
+    padding: 14px 8px;
+    border-bottom: 1px solid #ECF2F7;
+    text-align: left;
+}
+
+.table td {
+    padding: 14px 8px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #081E2E;
+}
+.table_item {
+    font-size: 12px;
+    line-height: 14px;
+    color: #76828A;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+@media all and (max-width:1300px) {
+
+    .table th,
+    .table td {
+        padding: 14px 4px;
+    }
+
+}
+
+@media all and (max-width:1150px) {
+
+    .table_item,
+    .table td {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .table {
+        min-width: 1040px;
+    }
+}

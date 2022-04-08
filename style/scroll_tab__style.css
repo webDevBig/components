@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Futura Std Book';
+    font-style: normal;
+    font-weight: 400;
+    overflow-x: hidden;
+
+    /*    for separation only*/
+    /*    delete*/
+    padding: 20px;
+    /*    ********/
+}
+
+/*frame around buttons*/
+.border_box {
+    padding: 20px;
+    border: 1px dashed #7B61FF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: fit-content;
+    min-width: 125px;
+}
+
+/***********/
+
+/*Scroll tab button*/
+.tab_btn {
+    font-size: 12px;
+    line-height: 14px;
+    color: #081E2E;
+    padding: 7px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+    background: #F7FBFF;
+    border: 1px solid #ECF2F7;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.tab_btn.active {
+    background: white;
+    border-color: transparent;
+}
+
+.tab_btn .icon {
+    display: none;
+    margin: 0 0 0 6px;
+}
+
+.tab_btn.active .icon {
+    display: block;
+}

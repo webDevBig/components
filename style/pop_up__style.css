@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Futura Std Book';
+    font-style: normal;
+    font-weight: 400;
+    overflow-x: hidden;
+    
+     /*    for separation only*/
+    /*    delete*/
+    padding: 20px;
+    /*    ********/
+}
+
+.pop_up_box {
+    background: #F7FBFF;
+    border: 1px solid #ECF2F7;
+    padding: 15px 24px;
+    width: fit-content;
+    border-radius: 4px;
+    position: relative;
+    margin: 20px;
+}
+
+.pop_up_box::before {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: #F7FBFF;
+    transform: rotate(45deg);
+}
+
+.pop_up_right::before {
+    border-bottom: 1px solid #ECF2F7;
+    border-left: 1px solid #ECF2F7;
+    left: -7.5px;
+    bottom: 8px;
+    border-radius: 0 0 0 2px;
+}
+
+.pop_up_bottom::before {
+    border-top: 1px solid #ECF2F7;
+    border-left: 1px solid #ECF2F7;
+    right: 15.5px;
+    top: -7.5px;
+    border-radius: 2px 0 0 0;
+}
+
+.pop_up_box ul {
+    list-style: none;
+    display: inline-grid;
+}
+
+.pop_up_box li {
+    margin: 6px 0;
+}
+
+.pop_up_box a {
+    font-size: 14px;
+    line-height: 17px;
+    color: #081E2E;
+    font-family: 'Futura Std Book';
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.pop_up_box .list_icon {
+    max-width: 18px;
+    margin: 0 12px 0 0;
+}

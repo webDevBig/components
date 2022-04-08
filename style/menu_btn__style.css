@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Futura Std Book';
+    font-style: normal;
+    font-weight: 400;
+    overflow-x: hidden;
+    
+     /*    for separation only*/
+    /*    delete*/
+    padding: 20px;
+    /*    ********/
+}
+
+.menu_btn {
+    background: #53A5E0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px dashed #7B61FF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+
+.menu_list {
+    background: #53A5E0;
+    box-sizing: border-box;
+    width: fit-content;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_list li {
+    margin: 4px 0;
+}
+
+.menu_btn li {
+    margin: 10px 0;
+}
+
+.menu_list .menu_item {
+    width: 94px;
+    padding: 8px 0px;
+    text-decoration: none;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #E7F5FF;
+    font-family: 'Futura Std Book';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.menu_list a.active {
+    background: #F7FBFF;
+    color: #081E2E;
+}
+
+.menu_list .menu_icon {
+    margin: 0 0 6px;
+}

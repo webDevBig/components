@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Futura Std Book';
+    font-style: normal;
+    font-weight: 400;
+    overflow-x: hidden;
+
+    /*    for separation only*/
+    /*    delete*/
+    padding: 20px;
+    /*    ********/
+}
+
+/*Small input*/
+.text_input {
+    background: #FFFFFF;
+    border: 1px solid #ECF2F7;
+    box-sizing: border-box;
+}
+
+.text_input:focus,
+.text_input:active {
+    outline: none;
+}
+
+.text_input.small_input {
+    width: 48px;
+    height: 32px;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #081E2E;
+}
+
+.text_input.large_input {
+    width: 42px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #081E2E;
+    padding: 0 12px;
+}

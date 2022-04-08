@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Futura Std Book';
+    font-style: normal;
+    font-weight: 400;
+    overflow-x: hidden;
+
+    /*    for separation only*/
+    /*    delete*/
+    padding: 20px;
+    /*    ********/
+}
+
+.list_item {
+    padding: 8px 12px;
+    background: #FFFFFF;
+    border: 1px solid #ECF2F7;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin: 0 4px;
+    display: flex;
+    align-items: center;
+    cursor: default;
+    width: fit-content;
+}
+.list_item .icon_16 {
+    margin: 0 0 0 6px;
+}
