@@ -42,14 +42,6 @@ body {
     flex-direction: column;
 }
 
-.border_box {
-    padding: 20px;
-    border: 1px dashed #7B61FF;
-    box-sizing: border-box;
-    border-radius: 5px;
-    width: fit-content;
-    min-width: 125px;
-}
 
 /*************/
 
@@ -189,7 +181,6 @@ body {
     background: #53A5E0;
     box-sizing: border-box;
     border-radius: 5px;
-    border: 1px dashed #7B61FF;
     padding: 10px 20px;
     border-radius: 5px;
 }
@@ -496,18 +487,6 @@ body {
 
 /*Chekbox*/
 
-.check_box {
-    width: 58px;
-    height: 97px;
-    border: 1px dashed #7B61FF;
-    box-sizing: border-box;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    padding: 22px 0;
-}
 
 .form-group input {
     padding: 0;

@@ -15,17 +15,6 @@ body {
     /*    ********/
 }
 
-/*frame around buttons*/
-.border_box {
-    padding: 20px;
-    border: 1px dashed #7B61FF;
-    box-sizing: border-box;
-    border-radius: 5px;
-    width: fit-content;
-}
-
-/***********/
-
 
 /*smal_btn*/
 .smal_btn {
