@@ -572,6 +572,10 @@ body {
     margin: 0;
 }
 
+.menu_list li.logo a {
+    height: 29px;
+}
+
 .menu_list li.logo img {
     margin: 0;
 }
@@ -1100,5 +1104,33 @@ body {
 
     .search_input {
         width: 290px;
+    }
+}
+
+@media all and (max-height:635px) {
+    .menu_box .logo {
+        height: 60px;
+    }
+
+    .menu_box .menu_list li {
+        margin: 0;
+    }
+
+    .menu_box .menu_box .menu_bottom {
+        padding: 15px 0;
+    }
+}
+
+@media all and (max-height:545px) {
+    .menu_box .menu_list .menu_icon {
+        margin: 0;
+    }
+
+    .menu_box .menu_list .menu_item span {
+        display: none;
+    }
+    .menu_box
+    {
+        min-height: 440px;
     }
 }
