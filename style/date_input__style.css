@@ -16,6 +16,12 @@ body {
     /*    ********/
 }
 
+.r {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
 /*Date input*/
 .date_input {
     width: 143px;
@@ -39,6 +45,7 @@ body {
     background-size: 18px;
     font-family: 'Futura Std Book';
     cursor: pointer;
+    text-align: left;
 }
 
 
